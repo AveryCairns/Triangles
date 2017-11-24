@@ -19,7 +19,7 @@ namespace Triangles
 
         Pen pen;
 
-        public void DrawTriangle(Pen pen, int x1, int x2, int x3, int y1, int y2, int y3)
+        public void DrawTriangle(Pen pen, int x1, int y1, int x2, int y2, int x3, int y3)
         {
             Graphics triGFX = this.CreateGraphics();
             triGFX.DrawLine(pen, x1, y1, x2, y2);
