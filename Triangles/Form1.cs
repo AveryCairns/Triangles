@@ -30,7 +30,7 @@ namespace Triangles
         private void Form1_Shown(object sender, EventArgs e)
         {
             pen = new Pen(Color.Black);
-            DrawTriangle(pen, 50, 50, 100, 100, 75, 150);
+            DrawTriangle(pen, 50, 50, 75, 25, 100, 50);
         }
     }
 }
